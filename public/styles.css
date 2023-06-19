@@ -16,10 +16,11 @@ h1 {
     text-align: center;
 }
 
-p {
+.wrapper h3 {
     color: #333;
     margin: auto;
     text-align: center;
+    font-weight: 600;
 }
 
 ul {
@@ -39,9 +40,10 @@ li h4 {
     text-transform: capitalize;
 }
 
-li p {
+.wrapper li p {
     color: #333;
     margin: 8px 0 0;
+    text-align: left;
 }
 
 footer {
@@ -91,10 +93,10 @@ button:hover {
 }
 
 
-  /* footer a{
+  footer a{
     text-align: center;
     display: block;
     color: #999;
     margin-top: 40px;
     font-size: 0.7em;
-  } */
+  }
