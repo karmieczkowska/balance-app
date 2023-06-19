@@ -10,6 +10,11 @@ export class ListTemplate {
         const p = document.createElement('p');
         p.innerText = item.format();
         li.append(p);
+        // const img = document.createElement('img');
+        // img.src ='https://img.icons8.com/?size=512&id=84930&format=png';
+        // img.alt = 'bin icon';
+        // img.id = 'bin';
+        // li.append(img);
         if (pos === 'start') {
             this.container.prepend(li);
         }

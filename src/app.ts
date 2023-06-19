@@ -14,7 +14,6 @@ const amount = document.querySelector('#amount') as HTMLInputElement;
 const ul = document.querySelector('ul')!;
 const list = new ListTemplate(ul);
 
-
 form.addEventListener('submit', (e: Event) => {
     e.preventDefault();
 
@@ -26,6 +25,8 @@ form.addEventListener('submit', (e: Event) => {
     }
 
     list.render(doc, type.value, 'end');
-
+    tofrom.value = "";
+    details.value = "";
+    amount.value = "";
 });
 
