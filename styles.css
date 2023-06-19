@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 40px auto;
+    color: #73A9AD;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 6px 10px;
+    border: 1px solid #eee;
+    margin: 10px auto;
+}
+
+li h4 {
+    color: #73A9AD;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+li p {
+    color: #333;
+    margin: 8px 0 0;
+}
+
+footer {
+    background: #eee;
+    padding: 60px;
+    margin-top: 60px;
+}
+
+form {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #333;
+    margin: 16px 0 6px;
+}
+
+input, select {
+    padding: 6px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.field {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+button {
+    color: white;
+    border: 0;
+    background: #73A9AD;
+    padding: 6px;
+    min-width: 80px;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: #eee;
+    background: #567d80;
+
+}
+
+
+  /* footer a{
+    text-align: center;
+    display: block;
+    color: #999;
+    margin-top: 40px;
+    font-size: 0.7em;
+  } */
